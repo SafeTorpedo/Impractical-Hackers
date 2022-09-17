@@ -10,4 +10,9 @@ body {
     color: #000031;
     background-color: white;
     font-size: 24px;
+    width: 70%;
+    border: 1px solid rgb(149, 78, 78);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
 }
