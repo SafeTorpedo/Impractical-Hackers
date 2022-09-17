@@ -25,10 +25,8 @@ const Formm = () => {
           </div>
         </div>
       </form>
-        <div>
-            <span contentEditable>
-                
-            </span>
+        <div id="lyrics_container">
+              
         </div>
      </div>
     );
