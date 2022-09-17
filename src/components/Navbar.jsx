@@ -26,11 +26,11 @@ const Navbar = () => {
             <div
                 className={
                     !nav
-                        ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-800 bg-[#000031] ease-in-out duration-500"
+                        ? "fixed left-0 top-0 w-[63%] md:hidden lg:hidden h-full border-r border-r-gray-800 bg-[#000031] ease-in-out duration-500"
                         : "fixed left-[-100%]"
                 }
             >
-                <h1 className="w-full text-3xl font-bold text-[#00df8c] m-8">
+                <h1 className="w-full text-3xl font-bold text-[#00df8c] m-8 p-6">
                     Insert Project Name
                 </h1>
                 <ul className="pt-12 uppercase p-4">
