@@ -25,6 +25,11 @@ const Formm = () => {
           </div>
         </div>
       </form>
+        <div>
+            <span contentEditable>
+                
+            </span>
+        </div>
      </div>
     );
 };
