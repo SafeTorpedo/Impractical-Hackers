@@ -26,7 +26,7 @@ const Formm = () => {
         </div>
       </form>
         <div id="lyrics_container">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus cum asperiores natus, minima nobis, consectetur error, doloribus aut id laboriosam nostrum. Voluptates cupiditate nulla rem praesentium enim alias officia voluptatem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi similique corrupti at vel voluptatum dignissimos quae, explicabo dolore debitis inventore perferendis hic nisi voluptates ducimus sed commodi quos! Temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil fuga alias ad, necessitatibus architecto eius? Mollitia reprehenderit ipsum expedita, eligendi ducimus ab fugit, repellendus dolore quod ea in alias aut.
+              
         </div>
      </div>
     );
