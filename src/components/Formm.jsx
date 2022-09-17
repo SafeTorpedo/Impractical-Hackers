@@ -4,14 +4,14 @@ const Formm = () => {
    
 
     return (
-        // <div className="md:col-span-2 md:mt-0 text-center" >
+        <div className="mt-[-166px] md:col-span-2 md: text-center" >
       <form action="#" method="POST">
         <div className="overflow-hidden shadow sm:rounded-md">
           <div className=" px-4 py-5 sm:p-6">
             <div className="grid grid-cols-6 gap-6">
               <div className="col-span-6 sm:col-span-3">
                 {/* <label for="Song" className="block text-sm font-medium text-gray-700">Song Title</label> */}
-                <input type="text" name="song" id="song" autocomplete="given-name" placeholder="Enter a Song" className="mt-1 ml-auto p-6 block w-1/2 rounded-md border-red-400 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
+                <input type="text" name="song" id="song" autocomplete="given-name" placeholder="Enter a Song" className="mt-1 ml-auto p-6 block w-1/2 rounded-md border-red-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
               <div className="col-span-6 sm:col-span-3">
@@ -25,7 +25,7 @@ const Formm = () => {
           </div>
         </div>
       </form>
-    // </div>
+     </div>
     );
 };
 
