@@ -11,12 +11,12 @@ const Formm = () => {
             <div className="grid grid-cols-6 gap-6">
               <div className="col-span-6 sm:col-span-3">
                 {/* <label for="Song" className="block text-sm font-medium text-gray-700">Song Title</label> */}
-                <input type="text" name="song" id="song" autocomplete="given-name" placeholder="Enter a Song" className="mt-1 ml-auto p-6 block w-1/2 rounded-md border-red-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
+                <input type="text" name="song" id="song" autocomplete="song" placeholder="Enter a Song" className=" placeholder:text-gray-600 mt-1 ml-auto p-6 block w-1/2  rounded-md border-red-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
               <div className="col-span-6 sm:col-span-3">
                 {/* <label for="Artist" className=" text-sm font-medium  text-gray-700">Artist Name</label> */}
-                <input type="text" name="artist-name" id="artist-name" autocomplete="family-name" placeholder="Enter Artist Name" className="mt-1 mr-auto p-6 block w-1/2 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
+                <input type="text" name="artist-name" id="artist-name" autocomplete="artist-name" placeholder="Enter Artist Name" className="placeholder:text-gray-600 mt-1 mr-auto p-6 block w-1/2 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"/>
               </div>
             </div>
           </div>
