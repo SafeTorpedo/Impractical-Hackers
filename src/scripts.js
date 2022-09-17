@@ -13,7 +13,7 @@ function pickRandomProperty(obj) {
 }
 
 language=pickRandomProperty(json)
-music = require('musicmatch')({ apikey: "704c4ad833d840da8744b272d0a1df04" });
+music = require('musicmatch')({ apikey: {API_KEY} });
 
 music.matcherLyrics({ q_track: "Closer", q_artist: "Chainsmokers" })
     .then(function (data) {
