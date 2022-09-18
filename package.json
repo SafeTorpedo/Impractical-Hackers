@@ -1,7 +1,7 @@
 {
   "name": "impractical-hackers-2",
   "version": "0.1.0",
-  "homepage": "https://SafeTorpedo.github.io/Impractical-Hackers",
+  "homepage": "https://flatline.select",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
