@@ -2,6 +2,7 @@ import React from "react";
 import Pratham from "./images/Pratham.jpg";
 import Oluwajuwonlo from "./images/Oluwajuwonlo.jpg";
 import Kaushik from "./images/Kaushik.jpg";
+import Mamtha from "./images/Mamtha.png";
 
 const About = () => {
     return (
@@ -63,7 +64,7 @@ const About = () => {
                     <img
                         className="w-21 mx-auto mt-[-3rem] "
                         src={Kaushik}
-                        alt=""
+                        alt="Kaushik"
                     />
                     <h2 className="text-2xl font-bold text-center py-8">
                         Kaushik Iyer
@@ -88,8 +89,8 @@ const About = () => {
                 <div className="w-full border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
                     <img
                         className="w-21 mx-auto mt-[-3rem] "
-                        src={Pratham}
-                        alt=""
+                        src={Mamtha}
+                        alt="Mamtha"
                     />
                     <h2 className="text-2xl font-bold text-center py-8">
                         Mamtha

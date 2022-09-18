@@ -40,7 +40,7 @@ const Navbar = () => {
                 }
             >
                 <h1 className="w-full text-3xl font-bold text-[#00df8c] m-8 p-6">
-                    Insert Project Name
+                    Flatline
                 </h1>
                 <ul className="pt-12 uppercase p-4">
                     <li className="p-4 border-b border-gray-600">
