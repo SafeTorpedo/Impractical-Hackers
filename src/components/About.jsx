@@ -93,14 +93,21 @@ const About = () => {
                         alt="Mamtha"
                     />
                     <h2 className="text-2xl font-bold text-center py-8">
-                        Mamtha
+                        Mamtha Patalay
                     </h2>
                     <div className="text-center font-medium ">
-                        <p>To be included</p>
-                        <p>To be included</p>
+                        <p>Designer</p>
+                        <p>
+                            Institute of Aeronautical Engineering, Hyderabad,
+                            India
+                        </p>
+                        <p>3rd year</p>
                     </div>
                     <div className="text-center">
-                        <a href="" target="_blank">
+                        <a
+                            href="https://www.linkedin.com/in/mamtha-patalay/"
+                            target="_blank"
+                        >
                             <button className="bg-[#00df8c] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
                                 Connect with me
                             </button>
