@@ -19,6 +19,7 @@ const Navbar = () => {
                 <li className="p-4">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://github.com/SafeTorpedo/Impractical-Hackers"
                     >
                         Github Repo
@@ -49,6 +50,7 @@ const Navbar = () => {
                     <li className="p-4">
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             href="https://github.com/SafeTorpedo/Impractical-Hackers"
                         >
                             Github Repo

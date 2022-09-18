@@ -26,6 +26,7 @@ const About = () => {
                         <a
                             href="https://www.linkedin.com/in/pratham-gupta-a23673243/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <button className="bg-[#00df8c] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
                                 Connect with me
@@ -52,6 +53,7 @@ const About = () => {
                         <a
                             href="https://www.linkedin.com/in/oluwajuwonlo-ogunyemi-400364216/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <button className="bg-[#00df8c] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
                                 Connect with me
@@ -78,6 +80,7 @@ const About = () => {
                         <a
                             href="https://www.linkedin.com/in/kaushik-iyer-8aa347216/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <button className="bg-[#00df8c] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
                                 Connect with me
@@ -107,6 +110,7 @@ const About = () => {
                         <a
                             href="https://www.linkedin.com/in/mamtha-patalay/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <button className="bg-[#00df8c] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
                                 Connect with me
