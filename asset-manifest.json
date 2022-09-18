@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Impractical-Hackers/static/css/main.5e123090.css",
+    "main.js": "/Impractical-Hackers/static/js/main.1cd1baa3.js",
+    "static/js/787.d6de2dca.chunk.js": "/Impractical-Hackers/static/js/787.d6de2dca.chunk.js",
+    "static/media/Mamtha.png": "/Impractical-Hackers/static/media/Mamtha.b530ea6a91c1d2abe29e.png",
+    "static/media/Kaushik.jpg": "/Impractical-Hackers/static/media/Kaushik.626e4c116d7e3cee0ed8.jpg",
+    "static/media/Oluwajuwonlo.jpg": "/Impractical-Hackers/static/media/Oluwajuwonlo.263e62f81b43f303efa1.jpg",
+    "static/media/Pratham.jpg": "/Impractical-Hackers/static/media/Pratham.44a08f12d5705af589d0.jpg",
+    "index.html": "/Impractical-Hackers/index.html",
+    "main.5e123090.css.map": "/Impractical-Hackers/static/css/main.5e123090.css.map",
+    "main.1cd1baa3.js.map": "/Impractical-Hackers/static/js/main.1cd1baa3.js.map",
+    "787.d6de2dca.chunk.js.map": "/Impractical-Hackers/static/js/787.d6de2dca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e123090.css",
+    "static/js/main.1cd1baa3.js"
+  ]
+}
