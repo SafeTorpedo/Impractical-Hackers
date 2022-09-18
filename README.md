@@ -7,7 +7,6 @@
 Flatline is a lyrics website. Search up any song and it will display the lyrics, translate the lyrics to any language and also lets you listen to the song.
 Keeping the theme of the hackathon in mind, to make a goofy, silly or whimsical solution, we have messed up with the solution a little bit. The lyrics are displayed in a randomised language and when you click the play button the song won't play, instead you will hear the lyrics being read out in a monotonous voice.
 
-
 <h3>How to use it </h3>
 <ul>
   <li>Search up a song in the search bar.</li>
@@ -23,5 +22,8 @@ Keeping the theme of the hackathon in mind, to make a goofy, silly or whimsical 
     ~ musicmatcher </li></ul>
 <br>
 <br>
+
+<a taget="_blank" rel="noreferrer" href="https://youtu.be/sJticoey44c">Youtube Demo</a>
+<a rel="noreferrer" target="_blank" href="flatline.select">Check it out here</a>
 
 ![flatline](https://user-images.githubusercontent.com/100701261/190893670-23031ad4-ece3-4dd9-9036-01475b7790e1.png)
