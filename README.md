@@ -23,7 +23,7 @@ Keeping the theme of the hackathon in mind, to make a goofy, silly or whimsical 
 <br>
 <br>
 
-<a taget="_blank" rel="noreferrer" href="https://youtu.be/sJticoey44c">Youtube Demo</a>
+<a taget="_blank" rel="noreferrer" href="https://youtu.be/sJticoey44c">Youtube Demo</a><br>
 <a rel="noreferrer" target="_blank" href="flatline.select">Check it out here</a>
 
 ![flatline](https://user-images.githubusercontent.com/100701261/190893670-23031ad4-ece3-4dd9-9036-01475b7790e1.png)
