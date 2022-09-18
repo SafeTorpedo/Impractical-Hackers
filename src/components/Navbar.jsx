@@ -10,15 +10,24 @@ const Navbar = () => {
     return (
         <div className="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-white">
             <h1 className="w-full text-3xl font-bold text-[#00df8c] ">
-                Insert Project Name
+                Flatline
             </h1>
             <ul className="hidden md:flex">
-                <li className="p-4">Creators</li>
-                <li className="p-4">Github Repo</li>
+                <li className="p-4">
+                    <a href="#about">Creators</a>
+                </li>
+                <li className="p-4">
+                    <a
+                        target="_blank"
+                        href="https://github.com/SafeTorpedo/Impractical-Hackers"
+                    >
+                        Github Repo
+                    </a>
+                </li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {!nav ? (
-                    <AiOutlineClose size={20} />
+                    <AiOutlineClose size={20} fixed />
                 ) : (
                     <AiOutlineMenu size={25} />
                 )}
@@ -34,8 +43,17 @@ const Navbar = () => {
                     Insert Project Name
                 </h1>
                 <ul className="pt-12 uppercase p-4">
-                    <li className="p-4 border-b border-gray-600">Creators</li>
-                    <li className="p-4">Github Repo</li>
+                    <li className="p-4 border-b border-gray-600">
+                        <a href="#about">Creators</a>
+                    </li>
+                    <li className="p-4">
+                        <a
+                            target="_blank"
+                            href="https://github.com/SafeTorpedo/Impractical-Hackers"
+                        >
+                            Github Repo
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
