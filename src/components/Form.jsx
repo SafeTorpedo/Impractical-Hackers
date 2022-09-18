@@ -1,4 +1,4 @@
-const Formm = () => {
+const Form = () => {
     return (
         <div className="mt-[-166px] md:col-span-2 md: text-center">
             <form>
@@ -45,4 +45,4 @@ const Formm = () => {
     );
 };
 
-export default Formm;
+export default Form;
