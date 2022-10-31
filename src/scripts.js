@@ -35,8 +35,4 @@ music.matcherLyrics({ q_track: "hey jude", q_artist: "beatles" })
     }).catch(function (err) {
         console.log(err);
     })
-// translate(lyrics, 'en', 'ru', true).then(res => {
-//     console.log(res.translation);
-// }).catch(err => {
-//     console.error(err);
-// });
+
