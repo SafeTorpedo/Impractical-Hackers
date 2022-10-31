@@ -23,6 +23,14 @@ Keeping the theme of the hackathon in mind, to make a goofy, silly or whimsical 
 <br>
 <br>
 
+## Getting Started
+
+- Install and run
+
+```bash
+npm run start
+```
+
 <a taget="_blank" rel="noreferrer" href="https://youtu.be/sJticoey44c">Youtube Demo</a><br>
 <a rel="noreferrer" target="_blank" href="https://flatline.select">Check it out here</a>
 
