@@ -1,12 +1,12 @@
+
 const Form = () => {
     return (
         <div className="mt-[-166px] md:col-span-2 md: text-center py-10">
-            <form>
+            <form >
                 <div className="overflow-hidden shadow sm:rounded-md">
                     <div className=" px-4 py-5 sm:p-6">
                         <div className="grid grid-cols-6 gap-6">
                             <div className="col-span-6 sm:col-span-3">
-                                {/* <label for="Song" className="block text-sm font-medium text-gray-700">Song Title</label> */}
                                 <input
                                     type="text"
                                     name="song"
@@ -18,7 +18,6 @@ const Form = () => {
                             </div>
 
                             <div className="col-span-6 sm:col-span-3">
-                                {/* <label for="Artist" className=" text-sm font-medium  text-gray-700">Artist Name</label> */}
                                 <input
                                     type="text"
                                     name="artist-name"

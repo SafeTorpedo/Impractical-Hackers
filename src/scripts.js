@@ -17,7 +17,7 @@ function pickRandomProperty(obj) {
 
 
 language = pickRandomProperty(json)
-music = require('musicmatch')({ apikey: {API_KEY});
+music = require('musicmatch')({ apikey: {API_KEY}});
 music.matcherLyrics({ q_track: "hey jude", q_artist: "beatles" })
     .then(function (data) {
         var lyrics = data.message.body.lyrics.lyrics_body
