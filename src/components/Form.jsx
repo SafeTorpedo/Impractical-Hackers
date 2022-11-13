@@ -10,7 +10,7 @@ const Form = () => {
 
 
     useEffect(() => {
-        let my_apiKey = "a3e64412bd968dac4cbe24ad5da92c99"
+        let my_apiKey = ""
         axios({
             method: 'get',
             url: `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.artists.get?page=1&page_size=3&country=it&apikey=${my_apiKey}`
