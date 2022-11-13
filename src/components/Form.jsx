@@ -6,35 +6,36 @@ const Form = () => {
     const [song, setSong] = useState({});
     const [artist, setArtist] = useState("");
     const [state, setState] = useState("");
-   
-  
+
+
 
     useEffect(() => {
-        let my_apiKey = "apikey"
-          axios.get(
-            `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.artists.get?page=1&page_size=3&country=it&apikey=${my_apiKey}`
-          )
-          .then(res => {
-            console.log(res.data);
-          })
-          .catch(err => console.log(err));
-      }, [song]);
+        let my_apiKey = "a3e64412bd968dac4cbe24ad5da92c99"
+        axios({
+            method: 'get',
+            url: `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.artists.get?page=1&page_size=3&country=it&apikey=${my_apiKey}`
+        })
+            .then(res => {
+                console.log(res.data);
+            })
+            .catch(err => console.log(err));
+    }, [song]);
 
-   
+
 
     const getSong = e => {
         e.preventDefault();
         setState(song);
-      };
+    };
 
-      const songName = e => {
+    const songName = e => {
         setSong(e.target.value);
-      };
+    };
 
-      const artistName = e => {
+    const artistName = e => {
         setArtist(e.target.value);
-      };
-    
+    };
+
     return (
         <div className="mt-[-166px] md:col-span-2 md: text-center py-10">
             <form onSubmit={getSong} >
