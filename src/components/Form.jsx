@@ -11,7 +11,7 @@ const Form = () => {
 
     useEffect(() => {
           axios.get(
-            'https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.artists.get?page=1&page_size=3&country=it&apikey=a3e64412bd968dac4cbe24ad5da92c99'
+            `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.artists.get?page=1&page_size=3&country=it&apikey=${my_apiKey}`
           )
           .then(res => {
             console.log(res.data);
