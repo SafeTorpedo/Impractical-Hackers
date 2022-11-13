@@ -5,8 +5,11 @@ import Form from "./components/Form";
 import Mailer from "./components/Mailer";
 import About from "./components/About";
 
+
+
 function App() {
     return (
+       
         <div className="App">
             <Navbar />
             <Hero />
@@ -14,6 +17,7 @@ function App() {
             <Mailer />
             <About />
         </div>
+        
     );
 }
 
